@@ -1,0 +1,71 @@
+html, body {
+    margin:0;
+    padding:0;
+    font-size:16px;
+    font-family:tahoma;
+    background-image: url("bg1.jpg");
+    background-size: cover;
+}
+img{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 10px solid rgb(10, 0, 0);
+}
+.KRITI{
+    background: rgba(248, 248, 246, 0.904);
+    text-align: center;
+    width: 150px;
+    height:120px;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+.about,.skills,.experience {
+    padding: 10px 60px;
+    margin: 10px 150px;
+    border-radius: 20px;
+}
+.about{
+    margin-top: 0;
+}
+.header {
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.header .logo{
+    margin: 0 auto;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,.5);
+    background: orange;
+}
+.header hr{
+    border-color:orange;
+    width: 100px;
+}
+.header h1{
+    color: orange;
+}
+.about {
+    background: #fff;
+    box-shadow: 0px 1px 5px rgba(50,50,50,.2)
+}
+.skills{
+    background: orange;
+   color:#fff;
+}
+.experience {
+    background:#fff;
+    color:#000;
+    box-shadow: 0px 1px 5px rgba(50,50,50,.2);
+}
+.footer{
+    border: #fff;
+    text-align: center;
+    background: orange;
+    line-height: 40px;
+}
