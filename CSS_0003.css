@@ -1,0 +1,41 @@
+body{
+  background-image: url("img2.jpg");
+  font-size: medium;
+  font-style: italic;
+  background: cover;
+}
+img{
+  border: 10px solid rgb(3, 0, 0);
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+  display: block;
+  
+}
+.introduction{
+  border: 10px solid;
+  border-radius: 0%;
+  padding: 50px 60px;
+  margin: 50px 150px;
+  background-color: rgb(254, 177, 177);
+  text-align: center;
+}
+.email{
+  border-radius: 0%;
+  text-align: center;
+  padding: 1%;
+  background-color: azure;
+}
+.button {
+  border: none;
+  color: rgb(230, 26, 26);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+
+}
